@@ -1,4 +1,4 @@
-susy.oddbird.net
+takuhii.github.io/susy-sass
 ================
 
-New home for the Susy website
+New home for Susy-sass
