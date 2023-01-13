@@ -16,6 +16,14 @@
   <meta name="keywords" content="susy-sass, layout, grids, css, sass, compass, responsive, rwd, web, design" />
   <meta name="language" content="en-us" />
   <link rel="stylesheet" href="static/css/screen.css">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Susy-SASS">
+  <meta property="og:description" content="CSS layout framework">
+  <meta property="og:url" content="https://takuhii.github.io/susy-sass/">
+  <meta property="og:site_name" content="Takuhii">
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#d9e4e7">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#2e393e">
   <script src="https://use.typekit.net/slx1xnq.js"></script>
   <style type="text/css">.tk-freight-text-pro{font-family:"freight-text-pro",serif;}.tk-source-code-pro{font-family:"source-code-pro",monospace;}</style>
   <style type="text/css">@font-face{font-family:tk-freight-sans-pro-n4;src:url(https://use.typekit.net/af/442215/000000000000000000010b5a/27/l?primer=7ceb210e49ade74e23101e10f006f110a0b6588c7c57777a6e3d98a38b749696&fvd=n4&v=3) format("woff2"),url(https://use.typekit.net/af/442215/000000000000000000010b5a/27/d?primer=7ceb210e49ade74e23101e10f006f110a0b6588c7c57777a6e3d98a38b749696&fvd=n4&v=3) format("woff"),url(https://use.typekit.net/af/442215/000000000000000000010b5a/27/a?primer=7ceb210e49ade74e23101e10f006f110a0b6588c7c57777a6e3d98a38b749696&fvd=n4&v=3) format("opentype");font-weight:400;font-style:normal;font-stretch:normal;font-display:auto;}@font-face{font-family:tk-freight-sans-pro-i4;src:url(https://use.typekit.net/af/3df5fe/000000000000000000010b5b/27/l?primer=7ceb210e49ade74e23101e10f006f110a0b6588c7c57777a6e3d98a38b749696&fvd=i4&v=3) format("woff2"),url(https://use.typekit.net/af/3df5fe/000000000000000000010b5b/27/d?primer=7ceb210e49ade74e23101e10f006f110a0b6588c7c57777a6e3d98a38b749696&fvd=i4&v=3) format("woff"),url(https://use.typekit.net/af/3df5fe/000000000000000000010b5b/27/a?primer=7ceb210e49ade74e23101e10f006f110a0b6588c7c57777a6e3d98a38b749696&fvd=i4&v=3) format("opentype");font-weight:400;font-style:italic;font-stretch:normal;font-display:auto;}@font-face{font-family:tk-freight-sans-pro-n7;src:url(https://use.typekit.net/af/1709eb/000000000000000000010b60/27/l?primer=7ceb210e49ade74e23101e10f006f110a0b6588c7c57777a6e3d98a38b749696&fvd=n7&v=3) format("woff2"),url(https://use.typekit.net/af/1709eb/000000000000000000010b60/27/d?primer=7ceb210e49ade74e23101e10f006f110a0b6588c7c57777a6e3d98a38b749696&fvd=n7&v=3) format("woff"),url(https://use.typekit.net/af/1709eb/000000000000000000010b60/27/a?primer=7ceb210e49ade74e23101e10f006f110a0b6588c7c57777a6e3d98a38b749696&fvd=n7&v=3) format("opentype");font-weight:700;font-style:normal;font-stretch:normal;font-display:auto;}@font-face{font-family:tk-freight-sans-pro-i7;src:url(https://use.typekit.net/af/65fc7d/000000000000000000010b61/27/l?primer=7ceb210e49ade74e23101e10f006f110a0b6588c7c57777a6e3d98a38b749696&fvd=i7&v=3) format("woff2"),url(https://use.typekit.net/af/65fc7d/000000000000000000010b61/27/d?primer=7ceb210e49ade74e23101e10f006f110a0b6588c7c57777a6e3d98a38b749696&fvd=i7&v=3) format("woff"),url(https://use.typekit.net/af/65fc7d/000000000000000000010b61/27/a?primer=7ceb210e49ade74e23101e10f006f110a0b6588c7c57777a6e3d98a38b749696&fvd=i7&v=3) format("opentype");font-weight:700;font-style:italic;font-stretch:normal;font-display:auto;}@font-face{font-family:tk-freight-text-pro-n4;src:url(https://use.typekit.net/af/ac6334/000000000000000000012059/27/l?primer=7ceb210e49ade74e23101e10f006f110a0b6588c7c57777a6e3d98a38b749696&fvd=n4&v=3) format("woff2"),url(https://use.typekit.net/af/ac6334/000000000000000000012059/27/d?primer=7ceb210e49ade74e23101e10f006f110a0b6588c7c57777a6e3d98a38b749696&fvd=n4&v=3) format("woff"),url(https://use.typekit.net/af/ac6334/000000000000000000012059/27/a?primer=7ceb210e49ade74e23101e10f006f110a0b6588c7c57777a6e3d98a38b749696&fvd=n4&v=3) format("opentype");font-weight:400;font-style:normal;font-stretch:normal;font-display:auto;}@font-face{font-family:tk-freight-text-pro-i4;src:url(https://use.typekit.net/af/5464d5/00000000000000000001205a/27/l?primer=7ceb210e49ade74e23101e10f006f110a0b6588c7c57777a6e3d98a38b749696&fvd=i4&v=3) format("woff2"),url(https://use.typekit.net/af/5464d5/00000000000000000001205a/27/d?primer=7ceb210e49ade74e23101e10f006f110a0b6588c7c57777a6e3d98a38b749696&fvd=i4&v=3) format("woff"),url(https://use.typekit.net/af/5464d5/00000000000000000001205a/27/a?primer=7ceb210e49ade74e23101e10f006f110a0b6588c7c57777a6e3d98a38b749696&fvd=i4&v=3) format("opentype");font-weight:400;font-style:italic;font-stretch:normal;font-display:auto;}@font-face{font-family:tk-freight-text-pro-n7;src:url(https://use.typekit.net/af/04ec74/00000000000000000001205b/27/l?primer=7ceb210e49ade74e23101e10f006f110a0b6588c7c57777a6e3d98a38b749696&fvd=n7&v=3) format("woff2"),url(https://use.typekit.net/af/04ec74/00000000000000000001205b/27/d?primer=7ceb210e49ade74e23101e10f006f110a0b6588c7c57777a6e3d98a38b749696&fvd=n7&v=3) format("woff"),url(https://use.typekit.net/af/04ec74/00000000000000000001205b/27/a?primer=7ceb210e49ade74e23101e10f006f110a0b6588c7c57777a6e3d98a38b749696&fvd=n7&v=3) format("opentype");font-weight:700;font-style:normal;font-stretch:normal;font-display:auto;}@font-face{font-family:tk-freight-text-pro-i7;src:url(https://use.typekit.net/af/8cf83d/00000000000000000001205c/27/l?primer=7ceb210e49ade74e23101e10f006f110a0b6588c7c57777a6e3d98a38b749696&fvd=i7&v=3) format("woff2"),url(https://use.typekit.net/af/8cf83d/00000000000000000001205c/27/d?primer=7ceb210e49ade74e23101e10f006f110a0b6588c7c57777a6e3d98a38b749696&fvd=i7&v=3) format("woff"),url(https://use.typekit.net/af/8cf83d/00000000000000000001205c/27/a?primer=7ceb210e49ade74e23101e10f006f110a0b6588c7c57777a6e3d98a38b749696&fvd=i7&v=3) format("opentype");font-weight:700;font-style:italic;font-stretch:normal;font-display:auto;}@font-face{font-family:tk-source-code-pro-n7;src:url(https://use.typekit.net/af/756772/0000000000000000000179d5/27/l?primer=7ceb210e49ade74e23101e10f006f110a0b6588c7c57777a6e3d98a38b749696&fvd=n7&v=3) format("woff2"),url(https://use.typekit.net/af/756772/0000000000000000000179d5/27/d?primer=7ceb210e49ade74e23101e10f006f110a0b6588c7c57777a6e3d98a38b749696&fvd=n7&v=3) format("woff"),url(https://use.typekit.net/af/756772/0000000000000000000179d5/27/a?primer=7ceb210e49ade74e23101e10f006f110a0b6588c7c57777a6e3d98a38b749696&fvd=n7&v=3) format("opentype");font-weight:700;font-style:normal;font-stretch:normal;font-display:auto;}@font-face{font-family:tk-source-code-pro-n4;src:url(https://use.typekit.net/af/3c21b3/0000000000000000000179cf/27/l?primer=7ceb210e49ade74e23101e10f006f110a0b6588c7c57777a6e3d98a38b749696&fvd=n4&v=3) format("woff2"),url(https://use.typekit.net/af/3c21b3/0000000000000000000179cf/27/d?primer=7ceb210e49ade74e23101e10f006f110a0b6588c7c57777a6e3d98a38b749696&fvd=n4&v=3) format("woff"),url(https://use.typekit.net/af/3c21b3/0000000000000000000179cf/27/a?primer=7ceb210e49ade74e23101e10f006f110a0b6588c7c57777a6e3d98a38b749696&fvd=n4&v=3) format("opentype");font-weight:400;font-style:normal;font-stretch:normal;font-display:auto;}@font-face{font-family:tk-source-code-pro-i7;src:url(https://use.typekit.net/af/fb9aba/0000000000000000000179d6/27/l?primer=7ceb210e49ade74e23101e10f006f110a0b6588c7c57777a6e3d98a38b749696&fvd=i7&v=3) format("woff2"),url(https://use.typekit.net/af/fb9aba/0000000000000000000179d6/27/d?primer=7ceb210e49ade74e23101e10f006f110a0b6588c7c57777a6e3d98a38b749696&fvd=i7&v=3) format("woff"),url(https://use.typekit.net/af/fb9aba/0000000000000000000179d6/27/a?primer=7ceb210e49ade74e23101e10f006f110a0b6588c7c57777a6e3d98a38b749696&fvd=i7&v=3) format("opentype");font-weight:700;font-style:italic;font-stretch:normal;font-display:auto;}@font-face{font-family:tk-source-code-pro-i4;src:url(https://use.typekit.net/af/d090fb/0000000000000000000179d0/27/l?primer=7ceb210e49ade74e23101e10f006f110a0b6588c7c57777a6e3d98a38b749696&fvd=i4&v=3) format("woff2"),url(https://use.typekit.net/af/d090fb/0000000000000000000179d0/27/d?primer=7ceb210e49ade74e23101e10f006f110a0b6588c7c57777a6e3d98a38b749696&fvd=i4&v=3) format("woff"),url(https://use.typekit.net/af/d090fb/0000000000000000000179d0/27/a?primer=7ceb210e49ade74e23101e10f006f110a0b6588c7c57777a6e3d98a38b749696&fvd=i4&v=3) format("opentype");font-weight:400;font-style:italic;font-stretch:normal;font-display:auto;}</style>
@@ -34,19 +42,23 @@
         </div>
         <div class="media-content">
           <h1 id="title" tabindex="-1" class="p-name">Susy-SASS</h1>
+
           <div id="meta">
-            <p class="subtitle"><span class="caps">CSS</span> layout framework</p>
+            <p class="subtitle">
+              <span class="caps">CSS</span> layout framework
+            </p>
             <p class="byline">
               <i>Original work by</i>
-              <p class="h-card p-author">Miriam, Carl &amp; Jonny</a>
-              <time datetime="2009-07-13" pubdate="" class="dt-published">2009–2020</time><br/>
-              <i>Updated work by</i>
-              <p class="h-card p-author">Darren</a>
+              <p class="h-card p-author">Miriam, Carl &amp; Jonny</p>
               <i>from</i>
-              <time datetime="2009-07-13" pubdate="" class="dt-published">2022–2023</time>
+              <time datetime="2009-07-13" pubdate="" class="dt-published">2009–2020</time><br/>
+              <i>Original work by</i>
+              <p class="h-card p-author">Darren</p>
+              <i>from</i>
+              <time datetime="2009-07-13" pubdate="" class="dt-published">2009–2020</time>
             </p>
             <ul class="post-links">
-              <li><a href="https://github.com/takuhii/susy-sass">source »</a></li>
+              <li><a href="https://takuhii.github.io/susy-sass">source »</a></li>
               <li><a href="#">docs (coming soon) »</a></li>
             </ul>
           </div>
@@ -57,7 +69,7 @@
                 <a href="https://www.npmjs.com/package/susy-sass"><img src="https://badge.fury.io/js/susy-sass.svg" alt="npm"></a>
               </li>
             </ul>
-            <p><strong>Susy-SASS is a responsive layout engine for Sass</strong>. It is based on the 2.x version of Susy, and updated to use SASS instead of node-sass.</p>
+            <p><strong>Susy-SASS is a responsive layout engine for Sass</strong>. It is based on Susy 2.x and has been refactored to use <code>SASS</copde> instead of <code>node-sass</code>. As Susy is now deprecated, I decided to carry on the project.</p>
           </div>
         </div>
       </div>
