@@ -164,8 +164,8 @@ html {
 }
 
 html {
-  background: #001a26;
-  color: #cccccc;
+  background: #330d00;
+  color: #999999;
 }
 
 [data-icon='github']:before {
@@ -287,7 +287,7 @@ a:hover, a:focus, a:active {
   overflow-x: auto;
   padding: 0.69444rem;
   border-left: 0.34722rem solid rgba(255, 204, 229, 0.5);
-  background: #050505;
+  background: #030303;
 }
 @media (min-width: 50em) {
   .content pre {
