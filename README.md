@@ -3,17 +3,26 @@ Personal GitHub Pages site for [takuhii](https://github.com/takuhii), hosted at
 **<https://takuhii.github.io/>**.
 
 This repository is a static site (plain HTML and CSS, no build step) deployed
-automatically by GitHub Pages from the `main` branch. It currently hosts two
-versions of the **Susy-Sass** documentation site, a responsive layout engine
-for Sass.
+automatically by GitHub Pages from the `main` branch. It hosts the
+**Susy-Sass** documentation pages — Susy-Sass is a responsive grid/layout
+engine for Sass. Two styled copies of these pages are published: one with the
+original light theme and one with an inverted dark theme.
+
+The colour scheme is a property of the HTML pages and their stylesheet only. It
+does not affect Susy-Sass itself, which is a layout engine and has nothing to do
+with colours.
 
 ## Pages
-| Site | Live URL |
-| --- | --- |
-| Susy-Sass | <https://takuhii.github.io/susy-sass/> |
-| Susy-Sass3 | <https://takuhii.github.io/susy-sass3/> |
+| Site | Page theme | Live URL |
+| --- | --- | --- |
+| Susy-Sass | Light | <https://takuhii.github.io/susy-sass/> |
+| Susy-Sass3 | Dark (inverted) | <https://takuhii.github.io/susy-sass3/> |
 
-Both sites share the same content and layout.
+Both are the same documentation pages with the same content and layout. The
+only difference is how the pages are styled: `susy-sass3` loads a fully inverted
+(photographic-negative) version of the `susy-sass` stylesheet, giving the pages
+a dark appearance that mirrors the light original. This is a page-styling
+choice — it does not change the Susy-Sass layout engine.
 
 ## Repository layout
 ```
